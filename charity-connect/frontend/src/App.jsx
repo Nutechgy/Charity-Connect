@@ -4,6 +4,8 @@ import CharityList from './components/CharityList';
 import CharityDetail from './components/CharityDetail';
 import ApolloProvider from './ApolloProvider';
 import { Container, Header } from './styles';
+import SomeComponent from './components/SomeComponent';
+import './App.css';
 
 const App = () => (
   <ApolloProvider>
@@ -19,5 +21,10 @@ const App = () => (
   </ApolloProvider>
 );
 
+return (
+  <div className="App">
+    <SomeComponent />
+  </div>
+);
 export default App;
 

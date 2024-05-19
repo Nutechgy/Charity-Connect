@@ -6,7 +6,7 @@ import {
 } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql', // Replace with your deployed backend URL
+  uri: 'https://charity-connect.onrender.com', 
   cache: new InMemoryCache(),
 });
 
