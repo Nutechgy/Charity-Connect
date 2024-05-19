@@ -79,7 +79,7 @@ Update the Apollo Client configuration in src/ApolloProvider.js to point to your
 javascript
 Copy code
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql', // or your deployed backend URL
+  uri: 'https://charity-connect.onrender.com'
   cache: new InMemoryCache()
 });
 Start the frontend server:
@@ -119,4 +119,5 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any inquiries or feedback, please reach out to [your_email@example.com].
+For any inquiries or feedback, please reach out to teremuspigford@yahoo.com.
+
