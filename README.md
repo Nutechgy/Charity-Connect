@@ -55,24 +55,20 @@ npm install
 Create a .env file in the backend directory and add the following environment variables:
 
 env
-Copy code
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 Start the backend server:
 
 bash
-Copy code
 npm start
 Frontend
 Navigate to the frontend directory:
 
 bash
-Copy code
 cd ../frontend
 Install the required dependencies:
 
 bash
-Copy code
 npm install
 Update the Apollo Client configuration in src/ApolloProvider.js to point to your local or deployed backend URL:
 
@@ -85,7 +81,6 @@ const client = new ApolloClient({
 Start the frontend server:
 
 bash
-Copy code
 npm start
 Deployment
 Backend
@@ -97,7 +92,6 @@ Frontend
 Build the React app:
 
 bash
-Copy code
 npm run build
 Create a new static site on Render.
 
@@ -113,11 +107,7 @@ Live Demo
 Frontend: Charity Connect Frontend
 Backend: Charity Connect Backend
 Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-License
-This project is licensed under the MIT License.
-
+Contributions are welcome! Please fork the repository and create a pull request with your changes
 Contact
 For any inquiries or feedback, please reach out to teremuspigford@yahoo.com.
 
